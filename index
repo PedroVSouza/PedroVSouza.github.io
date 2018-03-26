@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<title>My Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Bentham|Montserrat:300,400,500,700,900|Rozha+One" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+
+button {
+  color: #FF004F;
+  background-color: white;
+  border: 1px solid #FF004F;
+  padding: 0.8em;
+}
+
+button:hover {
+  color: white;
+  background-color: #FF004F;
+}
+
+p {
+  color: #757575;
+}
+
+h2 {font-size: 1.3em; font-weight: bold;}
+h3 {color: #212121;}
+h4 {font-size: 1.2em; color: grey;}
+.w3-row-padding img {margin-bottom: 12px}
+
+.titulo {font-weight: bold; text-align: left;}
+.subtitulo {font-family: 'Rozha One', serif;}
+.subtitulo2 {font-family: 'Bentham', serif; color: #FF004F;}
+
+.gradient {
+  background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #FFF800 100%);
+}
+
+.titles {
+  color: #212121;
+}
+
+.white{
+  background-color: white;
+}
+
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="imgs/avatar.png" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <img src="imgs/house_house.svg" style="width: 90%;" alt="">
+    <p style="color: #FF0062;">HOME</p>
+  </a>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <img src="imgs/skills.svg" style="width: 50%;" alt="">
+    <p style="color: #FF0062;">SKILLS</p>
+  </a>
+  <a href="#photos" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <img src="imgs/work_work.svg" style="width: 100%;" alt="">
+    <p style="color: #FF0062;">WORK</p>
+  </a>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <img src="imgs/contact_contact.svg" style="width: 100%;" alt="">
+    <p style="color: #FF0062;">CONTACT</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+    <a href="#photos" class="w3-bar-item w3-button" style="width:25% !important">WORK</a>
+    <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
+  </div>
+</div>
+
+<!-- Page Content -->
+<div class="white w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center" id="home">
+
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify  w3-padding-64" id="">
+    <div class="row" style="display: flex; margin-bottom: 5em;">
+      <div class="w3-half">
+
+
+
+      </div>
+
+
+      <div class="w3-half">
+        <h2 class="">Prazer, <br> me chamo <br>Pedro.</h2>
+        <h1 class="titulo" style="font-size: 3em !important; padding: 1em 1em 0em 0em;">DESIGNER { <span class="subtitulo2"><i>UX / Dev</i></span> }</h1>
+        <p style="text-align: left; font-weight: 200;">Brasileiro, atualmente morando em São Paulo. Sou Designer UX/Desenvolvedor. em meus 11 anos de carreira como designer, adquiri valiosas skills e realizei diversos tipos de trabalhos para clientes como <strong> Facebook </strong>, <strong>Visa </strong>, <strong>Itaú</strong>, entre outros. Sou uma pessoa tranquila e determinada. Nunca satisfeito com apenas uma linguagem, estou sempre empurrando barreiras, estudando, aprendendo e tentando fazer com que as pessoas se divirtam em trabalhar comigo.
+        </p>
+        <div class="row" style="display: flex;">
+            <hr style="width:100px; color:" class="w3-opacity">
+            <h4 style="margin-left: 1em; font-weight: 200; color: #FF004F;"><a href="#contact">Contato</a></h4>
+        </div>
+      </div>
+</div>
+<div class="" id="about" style="">
+  <h3 class="w3-padding-16">Skills</h3>
+  <p class="w3-wide">UX Design</p>
+  <div class="w3-light-grey">
+    <div class="gradient" style="height:28px;width:95%; color: #FF004F;"></div>
+  </div>
+  <p class="w3-wide">Photoshop | Illustrator</p>
+  <div class="w3-light-grey">
+    <div class="gradient" style="height:28px;width:95%; color: #FF004F;"></div>
+  </div>
+  <p class="w3-wide">Css</p>
+  <div class="w3-light-grey">
+    <div class="gradient" style="height:28px;width:85%"></div>
+  </div>
+  <p class="w3-wide">Html</p>
+  <div class="w3-light-grey">
+    <div class="gradient" style="height:28px;width:80%"></div>
+  </div><br>
+  <p class="w3-wide">Javascript</p>
+  <div class="w3-light-grey">
+    <div class="gradient" style="height:28px;width:50%"></div>
+  </div><br>
+
+  <p class="w3-wide">Unity 3d</p>
+  <div class="w3-light-grey">
+    <div class="gradient" style="height:28px;width:40%"></div>
+  </div><br>
+
+  <button class="">
+    <i class="fa fa-download"></i> Baixar Currículo [resume]
+  </button>
+</div>
+
+  </div>
+
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="titles">Apollo 18</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <div class="">
+
+          <div class="row" style="display: flex; justify-content: space-between;">
+            <div class="">
+              <h6>cliente: mastertech</h6>
+              <a href="https://mastertech.com.br/apollo18">Ver site</a>
+            </div>
+            <div class="">
+              <img src="imgs/front_front.svg" style="width: 15%;" alt="">
+              <img src="imgs/ui_ui.svg" style="width: 15%;" alt="">
+            </div>
+          </div>
+          <div style="margin-right: 10em;">
+            <p style="font-size: 0.9em;">Apollo18 é um projeto de contratação de professores para trabalhar em áreas de tecnologia. Seu diferencial é que, em vez de analisar currículos robustos, a seleção é focada nas habilidades individuais e experiências de cada um, levantando a bandeira de que qualquer pessoa pode ensinar e aprender.</p>
+
+            <p style="font-size: 0.8em;">Algumas parcerias: <br> UX: Talita Novacoski | Back-End: Equipe Tech Mastertech</p>
+          </div>
+        </div>
+
+          <img src="imgs/02.png" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="imgs/01.png" style="width:100%">
+        <img src="imgs/in01.png" style="width:100%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="titles">Estação Hack</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <div class="">
+
+          <div class="row" style="display: flex; justify-content: space-between;">
+            <div class="">
+              <h6>cliente: facebook</h6>
+              <a href="https://mastertech.com.br/estacaohack">Ver site</a>
+            </div>
+            <div class="">
+              <img src="imgs/front_front.svg" style="width: 15%;" alt="">
+              <img src="imgs/ui_ui.svg" style="width: 15%;" alt="">
+            </div>
+          </div>
+          <div style="margin-right: 10em;">
+            <p style="font-size: 0.9em;">Estação Hack é um projeto do facebook em parceria com a mastertech que tem como objetivo capacitar jovems brasileiros em habilidades de tecnologia, independente de gênero ou classe social.</p>
+
+            <p style="font-size: 0.8em;">Algumas parcerias: <br> UX: Talita Novacoski | Back-End: Equipe Tech Mastertech</p>
+          </div>
+        </div>
+
+          <img src="imgs/EH06.png" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+        <img src="imgs/EH05.png" style="width:100%">
+        <img src="imgs/EH03.png" style="width:50%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="titles">UX | Prototipação</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <div class="">
+
+          <div class="row" style="display: flex; justify-content: space-between;">
+            <div class="">
+            </div>
+          </div>
+          <div style="margin-right: 10em;">
+            <p style="font-size: 0.9em;">Protótipos são uma ótima forma de testar o desempenho de um sistema, além de diminuir ruídos e salvar preciosas horas de desenvolvimento. É uma ferramenta excencial para projétos ágeis e umas das coisas que tenho mais prazer em fazer. Visa, Accenture e Porto Seguro são algumas das marcas nas quais realizei prototipações, de baixa a alta qualidade</p>
+
+            <p style="font-size: 0.8em;">observação: <br> Muitas vezes o projeto está em fase de desenvolvimento ou exige sigílo, por esses motivos algumas peças não podem ser perfeitamente mostradas.</p>
+          </div>
+
+          <img src="imgs/Maxichain.gif" style="width:100%">
+        </div>
+      </div>
+
+      <div class="w3-half">
+          <img src="imgs/leoMadeiras.gif" style="width:100%">
+      </div>
+
+      <div class="w3-half">
+          <img src="imgs/visa.gif" style="width:30%">
+      </div>
+
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <div class="w3-padding-64 w3-content" id="photos">
+    <h2 class="titles">Design</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="">
+        <img src="imgs/Ux_arte.png" style="width:30%">
+        <img src="imgs/Exit.png" style="width:30%">
+        <img src="imgs/head.png" style="width:15%">
+        <img src="imgs/logoApollo.png" style="width:15%">
+      </div>
+
+      <div class="">
+        <img src="imgs/criativos01.png" style="width:33%">
+        <img src="imgs/criativos02.png" style="width:33%">
+        <img src="imgs/Camila1.2.png" style="width:25%">
+      </div>
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="tittle">Contato</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> São Paulo, SP</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: +55 11 985582126</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: pedro@pvscdesign.com</p>
+    </div><br>
+    <p>Lets get in touch. Send me a message:</p>
+
+    <form action="mailto:pedro@pvscdesign.com" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button type="submit">
+          <i class="fa fa-paper-plane"></i> Enviar Mensagem
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>
+
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+
+    <a target="_blank" href="https://www.linkedin.com/in/pedro-victor-souza-243340160/"><i class="fa fa-linkedin w3-hover-opacity"></i> </a>
+
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
